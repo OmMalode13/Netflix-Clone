@@ -1,0 +1,336 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@500&family=Martel+Sans:wght@600&family=Poppins:wght@700&family=Rubik+Iso&display=swap');
+
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    background-image: url(assets/images/backG.jpg);
+    height: 70vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1200px, 100vw);
+    position: relative;
+}
+
+.main .box {
+    height: 70vh;
+    width: 100%;
+    opacity: 0.69;
+
+    background-color: black;
+    position: absolute;
+    top: 0;
+}
+
+nav {
+    display: flex;
+    max-width: 60vw;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+
+nav img {
+    width: 133px;
+    position: relative;
+    z-index: 10;
+
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+}
+
+.hero {
+    font-family: 'Poppins', 'Sans-serif';
+    height: calc(100% - 100px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    gap: 23px;
+    padding: 0px 30px;
+}
+
+.hero>:first-child {
+    font-weight: 950;
+    font-size: 48px;
+    text-align: center;
+}
+
+.hero:nth-child(2) {
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+}
+
+.hero:nth-child(3) {
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+
+.sepration {
+    height: 5px;
+    background-color: rgb(63, 63, 63);
+
+}
+
+.btn {
+    padding: 3px 8px;
+    font-weight: bold;
+    background-color: transparent;
+    color: white;
+    border-radius: 4px;
+    border: 1px solid rgba(255, 255, 255, 0.615);
+    cursor: pointer;
+
+}
+
+.btn-red-sm {
+    background-color: red;
+    color: white;
+    font-weight: 900;
+}
+
+.hero-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+
+.btn-red {
+    background-color: red;
+    color: white;
+    padding: 7px 24px 8px 14px;
+    font-size: 20px;
+    border-radius: 4px;
+    border: none;
+}
+
+.main input,
+input {
+    padding: 7px 101px 8px 14px;
+    font-size: 20px;
+    color: white;
+    font-weight: 300;
+    border-radius: 4px;
+    background-color: rgba(23, 23, 23, 0.7);
+    border: 1px solid rgba(246, 238, 238, 0.5);
+}
+
+.first {
+    display: flex;
+    font-family: 'Poppins', 'Sans-serif';
+    justify-content: center;
+    align-items: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+}
+
+
+
+
+
+.secImg {
+    position: relative;
+}
+
+.secImg img {
+    /* width: 34vw; */
+    width: 555px;
+    padding-top: 10px;
+    /* padding: 20px; */
+
+    position: relative;
+    z-index: 10;
+
+}
+
+.secImg video {
+
+    position: absolute;
+    /* padding: 20px; */
+    top: 51px;
+    right: 0;
+    /* width: 30vw; */
+    width: 555px;
+
+    overflow: hidden;
+
+
+}
+
+.first>div {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins', 'Sans-serif';
+    padding: 34px 0;
+}
+
+.first>div :nth-child(1) {
+    font-size: 48px;
+    font-weight: bolder;
+    font-family: 'Poppins', 'Sans-serif';
+}
+
+.first>div :nth-child(2) {
+    font-size: 24px;
+    font-family: 'Poppins', 'Sans-serif';
+
+}
+
+.third video {
+    position: absolute;
+    top: 45px;
+    margin-right: 22%;
+    width: 20vw;
+}
+
+.faq {
+    color: white;
+}
+
+.faq h1 {
+    text-align: center;
+    font-weight: 900;
+    font-size: 48px;
+    padding: 80px 0 40px 0;
+    font-family: 'poppins', 'Sans-serif';
+
+}
+
+.faqbox {
+    display: flex;
+    background-color: #2d2d2d;
+    padding: 23px;
+    max-width: 70vw;
+    justify-content: space-between;
+    margin: auto;
+    /* font-family: 'poppins', 'Sans-serif'; */
+    font-weight: 400;
+    font-size: 24px;
+    cursor: pointer;
+    border: 2px solid black;
+    transition: all 1s ease-out;
+
+}
+
+.faqbox:hover {
+    background-color: #414141;
+}
+
+.last {
+    text-align: center;
+    padding: 20px 0 80px 0;
+    color: white;
+}
+
+.last .hero {
+    padding-top: 25px;
+}
+
+footer {
+    color: white;
+    max-width: 90vw;
+    margin: auto;
+    padding: 15px;
+}
+
+footer .question {
+    padding: 34px 0;
+}
+
+
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+
+    /* margin: auto; */
+
+}
+
+.footer a {
+    font-size: 14px;
+    font-weight: 400;
+    color: white;
+}
+
+.footeritem {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+}
+
+@media screen and (max-width:1300px) {
+    nav{
+        max-width: 90vw;
+    }
+    .first {
+        flex-wrap: wrap;
+    }
+    .secImg img {
+    
+        width: 305px;
+    }
+    .secImg video {
+         width: 305px;
+     }
+     .hero>:first-child {
+        
+        font-size: 32px;
+        
+    }
+    .hero:nth-child(2) {
+    
+        font-size: 18px;
+        
+    }
+    
+    .hero:nth-child(3) {
+       
+        font-size: 18px;
+   
+    }
+    .hero-btn {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 16px;
+    }
+    .faq h1 {
+        font-size: 32px;
+       
+    
+    }
+   
+    
+}
+
+@media screen and (max-width:1300px) {
+    .footer {
+
+
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        color: white;
+    }
+
+}
